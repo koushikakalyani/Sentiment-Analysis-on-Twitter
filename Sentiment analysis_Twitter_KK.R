@@ -11,10 +11,10 @@ library(R6)
 library(stringi)  
 library(stringr)
 #Establiashing connection
-api_key <- "cPhjdi8hlqP9gj2yWlVih1iEN"
-api_secret <- "bgH9U6mL3MN2mYPPn6SZTPINsl1uSshPU1judoitfOWv2JR2RN"
-access_token <- "431623383-BpMOTEvlXSWqH1V6ci09kH2VDhn9TeHR29cwFTKx"
-access_token_secret <- "CBy7OkNhDGShP2I1GBqljkjVT8Od4h4y6nVWCDIjGEVgQ"
+api_key <- "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+api_secret <- "XXXXXXXXXXXXXXXXXXXXXXXX"
+access_token <- "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+access_token_secret <- "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 
 #test if working well, fetch some tweets from the data incubator
