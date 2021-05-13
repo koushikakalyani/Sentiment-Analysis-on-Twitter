@@ -5,13 +5,13 @@ install.packages('R6', dependencies=T)
 install.packages('stringi', dependencies=T)
 install.packages('stringr', dependencies=T)
 library(devtools)
-install_github("twitteR", username="geoffjentry")
+install_github("twitteR", username="xxxxxxxxxxxxx") #your user name for twitter
 library(twitteR)
 library(R6)  
 library(stringi)  
 library(stringr)
 #Establiashing connection
-api_key <- "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+api_key <- "XXXXXXXXXXXXXXXXXXXXXXXXXX" 
 api_secret <- "XXXXXXXXXXXXXXXXXXXXXXXX"
 access_token <- "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
 access_token_secret <- "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
