@@ -17,10 +17,6 @@ access_token <- "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
 access_token_secret <- "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 
-#test if working well, fetch some tweets from the data incubator
-searchTwitter("thedatainc")
-#search Twitter and fetch up to 1,500 results
-thedatainc.tweets = searchTwitter('@thedatainc', n=1500)
 ######################################
 #Estimating Sentiment
 
